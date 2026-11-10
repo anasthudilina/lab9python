@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Test & Coverage artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Lab 9 specific artifacts (файли, що створюються під час роботи)
+*.db
+*.sqlite
+*.prof
+benchmark_results.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
